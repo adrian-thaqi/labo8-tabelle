@@ -181,14 +181,14 @@ Vous pouvez faire le rapport en `markdown` en vous inspirant de la structure de 
 
 Vous pouvez ensuite le convertir en PDF avec l'outil suivant `https://dillinger.io/`
 
-Pour tester de façon plus automatique votre programme, vous pouvez directement envoyer les valeurs à saisir sur `stdin`. Voici par exemple des commandes qu'un ingénieur de test pourrait utiliser pour tester votre programme :
-
-```console
-$ echo 2 | ./tabelle | grep -P '[Vv]ersion'
-$ echo 3 | ./tabelle'
-$ echo 6 5 | ./tabelle'
-```
-
-Alternativement, vous pouvez utiliser Baygon comme dans le dernier labo pour tester votre programme. Vous trouverez la documentation [ici](https://heig-tin-info.github.io/baygon/). En résumé, vous devez créer un fichier `tests.yaml` et le remplir avec vos différents tests.
-
 Notez que vous êtes totalement libre de faire vos tests comme vous le souhaitez.
+
+## Liste des livrables
+
+Mettre les fichiers suivant dans une archive **`zip`** (**pénalité pour les archives `rar`**) et la placer sur Cyberlearn
+-  Code source
+-  Le fichier exécutable
+-  Le rapport de test
+
+L’archive doit être déposée dans le répertoire "Labo08" de Cyberlearn (à la date
+demandée sur le site INFO1 de Cyberlearn).
