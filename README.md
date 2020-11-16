@@ -161,6 +161,11 @@ void version(void) {
 }
 ```
 
+Vous **devez** faire une fonction pour afficher la ligne séparatrice
+```console
+----+----+----+----+----+----
+```
+
 ### Bonus
 
 Créer une fonction qui permet de saisir une valeur par l'utilisateur. 
