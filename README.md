@@ -47,7 +47,7 @@ Veuillez choisir une option :
 
 > 1
 
-Livret le plus élevé ? (1..10) [10]: 5
+Livret le plus élevé ? (1..12) [12]: 5
 
   X |  1 |  2 |  3 |  4 | 5
 ----+----+----+----+----+----
@@ -76,6 +76,7 @@ Voulez-vous recommencer [Y/n] ? : n
 - L'affichage de la table de multiplication **doit** être identique à l'exemple ci-dessus.
 - L'espacement entre les cases de la table **doit** être adapté selon les valeurs affichées.
 - Toutes les cases ont la même largeur.
+- Le choix du livret est de 1 à 12.
 - Un rapport de test **PDF** **doit** être complété.
 - Des tests automatiques **peuvent** être écrits.
 
