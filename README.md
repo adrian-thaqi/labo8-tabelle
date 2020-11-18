@@ -47,7 +47,7 @@ Veuillez choisir une option :
 
 > 1
 
-Livret le plus élevé ? (1..12) [12]: 5
+Livret le plus élevé ? (1..15) [12]: 5
 
   X |  1 |  2 |  3 |  4 | 5
 ----+----+----+----+----+----
@@ -61,8 +61,16 @@ Livret le plus élevé ? (1..12) [12]: 5
 ----+----+----+----+----+----
   5 |  5 | 10 | 15 | 20 | 25
 
-Voulez-vous recommencer [Y/n] ? : n
+Voulez-vous recommencer [y/n] ? : n
 
+Veuillez choisir une option :
+
+  1. Table de multiplication
+  2. Version
+  3. Aide
+  0. Quitter
+
+> 0
 ```
 
 ## Cahier des charges
@@ -75,8 +83,11 @@ Voulez-vous recommencer [Y/n] ? : n
 - L'utilisateur **doit** être invité à saisir le livret le plus élevé à afficher.
 - L'affichage de la table de multiplication **doit** être identique à l'exemple ci-dessus.
 - L'espacement entre les cases de la table **doit** être adapté selon les valeurs affichées.
+- Une fois la table affichée, on demandera à l'utilisateur si il veut afficher une nouvelle table.
+- L'utilsateur **doit** répondre par `y` ou `n` si il veut recommencer.
 - Toutes les cases ont la même largeur.
-- Le choix du livret est de 1 à 12.
+- Si aucune valeur n'est entrée comme livret, on utilisera la valeur par défaut qui est entre `[]`
+- Le choix du livret est de 1 à 15.
 - Un rapport de test **PDF** **doit** être complété.
 
 ## Déroulement du travail
