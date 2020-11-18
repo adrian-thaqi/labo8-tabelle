@@ -78,7 +78,6 @@ Voulez-vous recommencer [Y/n] ? : n
 - Toutes les cases ont la même largeur.
 - Le choix du livret est de 1 à 12.
 - Un rapport de test **PDF** **doit** être complété.
-- Des tests automatiques **peuvent** être écrits.
 
 ## Déroulement du travail
 
@@ -117,6 +116,26 @@ Ce rapport doit être minimum, ne notez que vos observations et le strict essent
 ### Debug
 
 N'oubliez pas que vous pouvez utiliser le `debug`, en appuyant sur `F5`, pour aller voir comment se déroule votre programme en pas par pas.
+
+### Affichage
+
+Il doit toujours y avoir `1` espace autour du nombre le plus grand.
+Toutes les cases ont la même largeur.
+
+Si le nombre le plus grand est avec `1` chiffre
+```console
++---+---+
+| 4 | 9 |
++---+---+
+```
+
+Si le nombre le plus grand est avec `4` chiffres
+
+```console
++------+------+
+| 1234 |    9 |
++------+------+
+```
 
 ### Menu
 
