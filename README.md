@@ -198,11 +198,11 @@ Vous **devez** faire une fonction pour afficher la ligne séparatrice
 
 ### Bonus
 
-Créer une fonction qui permet de saisir une valeur par l'utilisateur. 
+Créer une fonction qui permet de saisir une valeur entière par l'utilisateur. 
 
 Cette fonction doit :
 -  afficher le text passé en paramètre 
--  faire le test pour savoir si la valeur est correcte
+-  faire le test pour savoir si la valeur est correcte (passer un `min` et `max` en paramètre)
 -  si la valeur n'est pas correcte, demande à l'utilisateur de recommencer.
 -  retourner la valeur saisie.
 
